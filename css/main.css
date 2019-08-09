@@ -1,0 +1,234 @@
+.navbar{ background:royalblue;}
+
+.nav-link ,
+.navbar-brand{
+     color: crimson;
+     /* #f4f4f4;  */
+     cursor: pointer;
+     text-emphasis: bold;
+}
+
+.nav-link{ margin-right: 1em !important;}
+
+.nav-link:hover{ 
+    /* background: #f4f4f4; */
+     color: #f97300;
+}
+
+.navbar-collapse{ justify-content: flex-end;}
+
+.navbar-toggler{ 
+  background:#fff !important;
+}
+
+.navbar-collapse{
+    justify-content: flex-end;
+}
+.bg-dark{
+    background-color:#343a40!important
+}
+.bg-primary{
+    background-color:#007bff!important
+}
+
+a:hover {
+    text-shadow: -.25px -.25px 0 rgba(116, 235, 215, 0.79),
+     /* rgb(149, 210, 245),  */
+                  .25px .25px white;
+  }
+
+.header{
+    position: relative; 
+    background-image: url('../images/image1_800x600.JPG');
+    
+     /* center center no-repeat; */
+    /* display: flex; */
+    /* background-attachment: fixed;   */
+    /* width: 100%; / */
+    background-size: cover;
+    background-position: center;
+    /*margin-top: 10rem; */
+    /* padding-top: 25rem; */
+     padding-bottom: 40rem; 
+    /* background-size: 200px;  */
+}
+
+.header .overlay{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+     min-height: 100%;
+    min-width: 100%; 
+    left: 0;
+    top: 0;
+    /* background: rgba(128, 10, 10, 0.79); */
+    /* rgba(244, 244, 244, 0.79); */
+    background: rgba(215, 239, 245, 0.39); 
+}
+
+.overlay{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    min-height: 100%;
+    min-width: 100%; 
+    left: 0;
+    top: 0;
+    /* background: rgba(128, 10, 10, 0.79); */
+    /* rgba(244, 244, 244, 0.79); */
+    background: rgba(202, 203, 204, 0.60); 
+}
+.description{
+    position: absolute;
+    top: 30%;
+    margin: auto; /*5px*/
+    padding: 2em;
+    
+}
+.description h1{
+ color:#F97300 ;
+}
+.description p{
+ color:rgb(1, 16, 36);
+ /* #666; */
+ font-size: 20px;
+ /* width: 25%; */
+ /* width: 50%; */
+ line-height: 1.5;
+ /* text-align: justify; */
+ text-align: center;
+}
+.description li {
+    font-size: 20px;
+    color: rgb(189, 68, 12);
+}
+.description button{
+ border:1px  solid #F97300;
+ background:#F97300;
+ color:#fff;
+}
+
+.about{
+    margin: 4em 0;
+    padding: 1em;
+    position: relative;
+   }
+
+.about h1{
+    color:#F97300;
+    margin: 2em;
+}
+
+ .about img{
+    height: 100%;
+    width: 100%;
+    border-radius: 75%
+} 
+.about span{
+    display: block; 
+    color: darkolivegreen;
+    position: absolute;
+    /* left: 115px;  */
+    font-style: italic;
+    text-align: justify;
+}
+
+.about .desc{
+    padding: 2em;
+    border-left:4px solid #10828C;
+}
+
+.about .desc h3{
+    color: #10828C;
+}
+
+.about .desc p{
+    line-height:1;
+    color: rgb(52, 10, 92);
+    /* color:#888; */
+}
+.portfolio h1 {
+    color: red;
+}
+.education {
+    color:#F97300;
+    margin: 2em;
+    text-align: center;
+}
+
+/* .interests {
+    height: 100px;
+    width: 100%;
+    ///---padding: 20px;
+    margin: 50px; 
+    border: 10px solid rgb(107, 165, 241);
+    background-color: rgb(190, 102, 102);
+} */
+/* .education h3 {
+     color: white; 
+    
+    margin: 2rem;
+} */
+/* 
+#lead{
+        color:lightsteelblue;
+        margin: 2px;
+         #666; 
+        font-size: 20px;
+        width: 25%;
+        50%
+        line-height: 1.5;
+        text-align: justify;
+} */
+.contact {
+    background-color: #343a40;
+    color: #f4f4f4;
+    width: 100%;
+    min-width: 100%;
+}
+
+
+
+.contact:hover{
+    background: #e2e2df;
+	color: #f97300;
+}
+/* .contact-email:hover{
+	background: #e2e2df;
+	color: #f97300;
+
+}
+
+.contact_tel:hover{
+    background: #e2e2df;
+	color: #f97300;
+} */
+
+.interests{
+    position: relative; 
+    background-image: url('../images/bookshelf.jpg');
+    
+     /* center center no-repeat; */
+    /* display: flex; */
+    /* background-attachment: fixed;   */
+    /* width: 100%; / */
+    background-size: cover;
+    background-position: center;
+    /*margin-top: 10rem; */
+    /* padding-top: 25rem; */
+     padding-bottom: 40rem; 
+    /* background-size: 200px;  */
+}
+
+.interests .overlay{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+     min-height: 100%;
+    min-width: 100%; 
+    left: 0;
+    top: 0;
+    /* background: rgba(128, 10, 10, 0.79); */
+    /* rgba(244, 244, 244, 0.79); */
+    background: rgba(215, 239, 245, 0.39); 
+}
