@@ -149,11 +149,17 @@ a:hover {
 }
 .portfolio h1 {
     color: red;
+    text-align: center;
 }
 .education {
-    color:#F97300;
+    /* color:#F97300; */
+    color: darkblue;
     margin: 2em;
     text-align: center;
+}
+.education h3 {
+color:red;
+text-align: center;
 }
 
 /* .interests {
@@ -231,4 +237,32 @@ a:hover {
     /* background: rgba(128, 10, 10, 0.79); */
     /* rgba(244, 244, 244, 0.79); */
     background: rgba(215, 239, 245, 0.39); 
+}
+.interests-content{
+    position: absolute;
+    top: 30%;
+    margin: auto; /*5px*/
+    padding: 2em;
+    
+}
+.interests-content h1{
+ color:#F97300 ;
+}
+.interests-content p{
+ color:rgb(1, 16, 36);
+ /* #666; */
+ font-size: 20px;
+ /* width: 25%; */
+ /* width: 50%; */
+ line-height: 1.5;
+ /* text-align: justify; */
+ text-align: center;
+}
+
+.interests-content-2{
+    position: relative;
+    top: 10%;
+    margin: auto; /*5px*/
+    padding: 2em;    
+    text-align: center;
 }
